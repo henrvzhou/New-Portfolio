@@ -1,1 +1,72 @@
-/*css*/
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+	width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #cdd2d8;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cdd2d8;
+  }
+}
+
+/* Header/Main */
+#page-top {
+  margin-top: 50px;
+}
+
+.intro {
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #cdd2d8;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social-media a {
+  color: #000;
+  font-size: 50px;
+  margin: 0px 10px;
+}
+
+.social-media a:hover {
+  color: #632727;
+}
+
+#cp-hz {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #000;
+  background-color: #fff;
+}
