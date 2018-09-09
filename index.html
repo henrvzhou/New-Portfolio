@@ -18,9 +18,9 @@
 </head>
 <body>
   <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+  <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light fixed-top py-3">
     <div class="order-0 mx-auto">
-      <a class="navbar-brand ml-5" href="#page-top">HENRY ZHOU</a>
+      <a class="navbar-brand ml-5" href="henrvzhou.com">HENRY ZHOU</a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto order-1 mr-5">
         <li class="nav-item">
-          <a class="nav-link mr-3" href="#work">Work</a>
+          <a class="nav-link mr-3" href="#projects">Work</a>
         </li>
         <li class="nav-item mr-3">
           <a class="nav-link" href="#about">About</a>
@@ -43,38 +43,111 @@
   <!--Header/Main-->
   <header id="page-top">
     <div class="intro">
+      <img id="my-pic" src="img/me.png">
       <h1 id="intro-name">Henry Zhou</h1>
       <p id="intro-bio">UX Designer and Front-End Developer based in Los Angeles, CA.</p>
     </div>
   </header>
 
-  <section id="work">
-    <div class="c-container">
-    <div class="row mx-2 justify-content-center">
-      <div class="card col-lg mx-5" style="width: 18rem;">
-        <img class="card-img-top" src="#" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Camellia Rd Camellia Rd Camellia Rd Camellia Rd Camellia Rd Camellia Rd </p>
+  <hr>
+
+  <!--Projects-->
+  <section id="projects">
+    <!--<div class="container">-->
+      <!--Project 1: Camellia Rd-->
+      <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <a class="work-img" href="#">
+            <img class="img-fluid" src="img/hold.jpg" alt="Camellia Rd 700x500 background fade from light to dark">
+          </a>
         </div>
-      </div>
-      <div class="card col-lg-5 mx-5" style="width: 18rem;">
-        <img class="card-img-top" src="#" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Camellia Rd Camellia Rd Camellia Rd Camellia Rd Camellia Rd Camellia Rd </p>
+        <div class="col-lg-6">
+          <div class="bg-light text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-content w-100 my-auto text-center">
+                <h4 class="project-title">Camellia Rd</h4>
+                <p class="project-description mx-1">A website redesign for a boba shop located in San Diego, CA.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>-->
+      <!--Project 2: HealthDose-->
+      <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <a class="work-img" href="#">
+            <img class="img-fluid" src="img/hold.jpg" alt="HealthDose 700x500">
+          </a>
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-light text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-content w-100 my-auto text-center">
+                <h4 class="project-title">HealthDose</h4>
+                <p class="project-descriptio mx-1">A mobile web application designed to provide recipes for middle-aged adults
+                  who are concerned with their health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>        
+    </div>-->
+    <h1 id="projects-title">Projects</h1>
+    <div class="container">
+      <div class="row">
+        <div class="card-container col-sm-6 col-lg-4">
+          <a class="card-link" href="#"><div class="card h-100">
+            <img class="card-img-top" src="img/camelliard1.png" alt="Camellia Rd 700x500 background fade from light to dark">
+            <div class="card-body">
+              <h5 class="card-title">Camellia Rd</h5>
+              <p class="card-text">A website redesign for a boba shop located in San Diego, CA.</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="card-container col-sm-6 col-lg-4">
+          <a class="card-link" href="#"><div class="card h-100">
+            <img class="card-img-top" src="img/healthdose.png" alt="Camellia Rd 700x500 background fade from light to dark">
+            <div class="card-body">
+              <h5 class="card-title">HealthDose</h5>
+              <p class="card-text">A mobile web application designed to provide recipes for middle-aged adults
+                  who are concerned with their health.</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="card-container col-sm-6 col-lg-4">
+          <a class="card-link" href="#"><div class="card h-100">
+            <img class="card-img-top" src="img/qharmony.png" alt="Camellia Rd 700x500 background fade from light to dark">
+            <div class="card-body">
+              <h5 class="card-title">QuarterHarmony</h5>
+              <p class="card-text">Prototype for a music application redesign that provides the best usability to users who continuously listen to music on-the-go.</p>
+            </div>
+          </div></a>
+        </div>
+        <!--<div class="col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/hold.jpg" alt="Camellia Rd 700x500 background fade from light to dark">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>-->
       </div>
-    </div>
     </div>
   </section>
 
+  <!--About-->
   <section id="about">
     about
   </section>
 
+  <!--Resume-->
   <section id="resume">
     resume
   </section>
-  
+
+  <!--Footer-->
   <footer id="page-ends">
     <div class="social-media">
       <a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>

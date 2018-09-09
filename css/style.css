@@ -1,5 +1,10 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+  --main-color: #cdd2d8;
+}
 
 html, body {
 	width: 100%;
@@ -11,29 +16,51 @@ html, body {
 }
 
 section {
-  height: 100vh;
+  
 }
 
 /* Navigation */
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #cdd2d8;
+  background-color: transparent; /* #fff*/
+  /*border-bottom: 1px solid #cdd2d8;*/
+}
+
+.navbar-brand {
+  font-weight: bold;
 }
 
 .navbar-toggler {
   border: none !important;
 }
 
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.navScroll {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--main-color);
+}
+
 @media (max-width: 992px) {
   .navbar {
     background-color: #ffffff;
-    border-bottom: 1px solid #cdd2d8;
+    border-bottom: 1px solid var(--main-color);
   }
 }
 
 /* Header/Main */
 #page-top {
-  margin-top: 50px;
+  margin-top: 0px;
+}
+
+#my-pic {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--main-color);
 }
 
 .intro {
@@ -42,18 +69,51 @@ section {
 }
 
 #intro-name {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #intro-bio {
   font-size: 1rem;
 }
 
+/* Line Break */
+hr {
+  width: 80%;
+}
+
+/* Projects Section */
+#projects-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Lobster', 'Roboto', sans-serif;
+}
+
+.card-link {
+  text-decoration: none;
+  color: rgba(0,0,0,0.5);
+}
+
+.card-link:hover {
+  color: var(--main-color);
+}
+
+.card {
+  box-shadow: 5px 5px 5px var(--main-color);
+}
+
+.card-container {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-align: center;
+}
+
 /* Footer */
 footer {
   width: 100%;
   background-color: #fff;
-  border-top: 1px solid #cdd2d8;
+  border-top: 1px solid var(--main-color);
 }
 
 .social-media {
@@ -68,7 +128,7 @@ footer {
 }
 
 .social-media a:hover {
-  color: #632727;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 #cp-hz {
