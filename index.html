@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto order-1 mr-5">
         <li class="nav-item">
-          <a class="nav-link mr-3" href="#projects">Work</a>
+          <a class="nav-link mr-3" href="#projects">Projects</a>
         </li>
         <li class="nav-item mr-3">
           <a class="nav-link" href="#about">About</a>
@@ -43,57 +43,17 @@
   <!--Header/Main-->
   <header id="page-top">
     <div class="intro">
-      <img id="my-pic" src="img/me.png">
-      <h1 id="intro-name">Henry Zhou</h1>
-      <p id="intro-bio">UX Designer and Front-End Developer based in Los Angeles, CA.</p>
+      <!--<img id="my-pic" src="img/me.png">-->
+      <h1 id="intro-name">Hello, I'm Henry.</h1>
+      <p id="intro-bio">UX Designer based in Los Angeles, CA</p>
     </div>
   </header>
 
-  <hr>
+  <!-- <hr> -->
 
   <!--Projects-->
   <section id="projects">
-    <!--<div class="container">-->
-      <!--Project 1: Camellia Rd-->
-      <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <a class="work-img" href="#">
-            <img class="img-fluid" src="img/hold.jpg" alt="Camellia Rd 700x500 background fade from light to dark">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-light text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-content w-100 my-auto text-center">
-                <h4 class="project-title">Camellia Rd</h4>
-                <p class="project-description mx-1">A website redesign for a boba shop located in San Diego, CA.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-      <!--Project 2: HealthDose-->
-      <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <a class="work-img" href="#">
-            <img class="img-fluid" src="img/hold.jpg" alt="HealthDose 700x500">
-          </a>
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-light text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-content w-100 my-auto text-center">
-                <h4 class="project-title">HealthDose</h4>
-                <p class="project-descriptio mx-1">A mobile web application designed to provide recipes for middle-aged adults
-                  who are concerned with their health.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>        
-    </div>-->
-    <h1 id="projects-title">Projects</h1>
+    <h1 class="content-header" id="projects-title">Projects</h1>
     <div class="container">
       <div class="row">
         <div class="card-container col-sm-6 col-lg-4">
@@ -106,11 +66,11 @@
           </div></a>
         </div>
         <div class="card-container col-sm-6 col-lg-4">
-          <a class="card-link" href="#"><div class="card h-100">
+          <a class="card-link" href="healthdose.html"><div class="card h-100">
             <img class="card-img-top" src="img/healthdose.png" alt="Camellia Rd 700x500 background fade from light to dark">
             <div class="card-body">
               <h5 class="card-title">HealthDose</h5>
-              <p class="card-text">A mobile web application designed to provide recipes for middle-aged adults
+              <p class="card-text">Prototype for a mobile web application designed to provide recipes for middle-aged adults
                   who are concerned with their health.</p>
             </div>
           </div></a>
@@ -124,27 +84,34 @@
             </div>
           </div></a>
         </div>
-        <!--<div class="col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img class="card-img-top" src="img/hold.jpg" alt="Camellia Rd 700x500 background fade from light to dark">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
   </section>
 
   <!--About-->
   <section id="about">
-    about
+    <h1 class="content-header">About</h1>
+    <div class="about-container">
+      <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed nulla nec nunc aliquam sodales. In sit amet eros neque. Sed vitae viverra lectus, ac eleifend lectus. 
+      Nam tristique pulvinar turpis, consectetur laoreet ex. Vestibulum risus mi, malesuada id pretium ut, interdum quis dolor. Praesent auctor scelerisque nibh et aliquam. 
+      Nulla pretium turpis rhoncus, porta libero sed, lobortis ligula. Donec justo dolor, aliquam sed congue nec, faucibus luctus ipsum. Integer vestibulum, lectus sit amet dictum 
+      aliquam, purus urna finibus justo, sit amet accumsan dui risus vel tellus. Suspendisse quis lobortis diam. Quisque laoreet luctus tincidunt. Nullam maximus et tellus in ornare.
+      -->
+      <p id="about-content">I am an undergraduate at the University of California, San Diego, pursuing a degree in Cognitive Science with a specialization in
+      Human Computer Interaction. As a front end developer, I strive to make websites easy to use as well as implementation of simple 
+      design. My current skill set includes proficiency in HTML and CSS. A bit of a novice in Javascript, but I hope to improve it as 
+      soon as possible.</p>
+    </div>
   </section>
 
   <!--Resume-->
   <section id="resume">
-    resume
+    <h1 class="content-header">Resumé</h1>
+    <div class="resume-container">
+      <form action="#">
+        <input id="resume-btn" type="submit" value="Download"/>
+      </form>
+    </div>
   </section>
 
   <!--Footer-->
@@ -154,7 +121,7 @@
       <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
       <a href="#" target="_blank"><i class="fa fa-github"></i></a>
     </div>  
-    <p id="cp-hz">© 2018 Henry Zhou</p>
+    <p id="cp-hz">&copy 2018 Henry Zhou</p>
   </footer>
 
   <script src="js/bootstrap/jquery.min.js"></script>

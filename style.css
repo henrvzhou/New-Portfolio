@@ -1,0 +1,306 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+  --main-color: #cdd2d8;
+}
+
+html, body {
+	width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: transparent; /* #fff*/
+  /*border-bottom: 1px solid #cdd2d8;*/
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  /*color: #000 !important;*/
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  /*border-bottom: 3px solid #000;*/
+}
+
+.navScroll {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--main-color);
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--main-color);
+  }
+}
+
+/* Header/Main */
+#page-top {
+  margin-top: 0px;
+}
+
+#my-pic {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--main-color);
+}
+
+.intro {
+  padding: 200px 0 150px 0;
+  text-align: center;
+}
+
+#intro-name {
+  font-size: 3rem;
+}
+
+#intro-bio {
+  font-size: 1.2rem;
+}
+
+/* Line Break */
+hr {
+  width: 80%;
+}
+
+/* Projects Section */
+.content-header {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Lobster', 'Roboto', sans-serif;
+}
+
+.card-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card-link:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.card {
+  box-shadow: 0 0 10px var(--main-color);
+}
+
+.card-container {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* About */
+.about-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#about-content {
+  font-size: 1.2rem;
+}
+
+/* Resume */
+#resume {
+  background-color: ;
+  padding-bottom: 50px;
+}
+
+.resume-container {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: px;
+}
+
+#resume-btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--main-color);
+}
+
+#resume-btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid var(--main-color);
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social-media a {
+  color: #000;
+  font-size: 50px;
+  margin: 0px 10px;
+}
+
+.social-media a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#cp-hz {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .about-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #intro-name {
+    font-size: 2.5rem;
+  }
+
+  #intro-bio {
+    font-size: 1rem;
+  }
+
+  .content-header {
+    font-size: 2rem;
+  }
+
+  #about-content {
+    font-size: 1rem;
+  }
+}
+
+
+/* TEST TEST TEST TEST */
+.project-headers {
+  margin-top: 50px;
+}
+
+.project-paragraphs {
+  font-size: 1.2rem;
+}
+
+.project-header-wrapper {
+  width: auto;
+  height: 50px;
+  margin-top: 100px;
+}
+
+#project-header {
+  text-align: center;
+}
+
+.project-content-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.project-paragraph-header {
+  margin-bottom: 5px;
+}
+
+.p1-storyboard {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-prototype1 {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-prototype2 {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.p1-prototype21 {
+  width: 500px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.p1-iprototype {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-finaldesign {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-redesign1 {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-redesign2 {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p1-abtest {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p2-generate {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p3-bad {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p3-good {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
